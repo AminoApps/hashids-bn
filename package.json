@@ -1,0 +1,19 @@
+{
+  "name": "hashids-bn",
+  "version": "1.0.0",
+  "description": "**Hashids-bn** is small JavaScript library to generate YouTube-like ids from numbers. This fork uses BigNumber so that number isn't limited. [http://hashids.org/javascript](http://hashids.org/javascript)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require ts-node/register test/**/*.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.2.0",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}
