@@ -1,4 +1,4 @@
-import Hashid from '../src/hashid'
+import Hashid from '../src/hashids'
 import { assert } from 'chai'
 
 const minLength = 30

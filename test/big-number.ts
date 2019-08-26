@@ -1,4 +1,4 @@
-import Hashids from '../src/hashid'
+import Hashids from '../src/hashids'
 import { assert } from 'chai'
 
 const hashids = new Hashids()
@@ -6,6 +6,7 @@ const hashids = new Hashids()
 const map: Record<string, bigint[]> = {
 	'JRoJOY8EpBvMr2': [1145141919810931364364n],
 	'AnLsBqiy4o8ToXtZjDk': [114n, 514n, 1919810n, 931n, 364364n],
+    'gO8oER443wvXVYppJAkR4MY': [888888888888888888888888888888888888n]
 }
 
 describe('encode/decode bigint', () => {

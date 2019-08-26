@@ -1,4 +1,4 @@
-import Hashids from '../src/hashid'
+import Hashids from '../src/hashids'
 import { assert } from 'chai'
 
 const hashids = new Hashids()
