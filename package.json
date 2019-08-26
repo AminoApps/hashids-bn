@@ -20,5 +20,14 @@
     "mocha": "^6.2.0",
     "ts-node": "^8.3.0",
     "typescript": "^3.5.3"
-  }
+  },
+  "keywords": [
+    "hashids",
+    "hashid",
+    "hash",
+    "encode",
+    "decode",
+    "BigInt",
+    "big-number"
+  ]
 }
