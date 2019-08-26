@@ -1,11 +1,12 @@
 {
   "name": "hashids-bn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "**Hashids-bn** is small JavaScript library to generate YouTube-like ids from numbers. This fork uses BigNumber so that number isn't limited. [http://hashids.org/javascript](http://hashids.org/javascript)",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AminoApps/hashids-bn.git"
   },
+  "typings": "dist/hashids.d.ts",
   "main": "dist/hasids.js",
   "scripts": {
     "test": "mocha --require ts-node/register test/**/*.ts",
