@@ -1,4 +1,4 @@
-**hashid-bn** is small JavaScript library to generate YouTube-like ids from numbers. This fork uses BigNumber so that number isn't limited.
+**hashids-bn** is small JavaScript library to generate YouTube-like ids from numbers. This fork uses BigNumber so that number isn't limited.
 [http://hashids.org/javascript](http://hashids.org/javascript)
 
 Getting started
@@ -6,7 +6,7 @@ Getting started
 
 Install Hashids via:
 
-- [node.js](https://nodejs.org): `npm install --save hashid-bn`
+- [node.js](https://nodejs.org): `npm install --save hashids-bn`
 
 
 This fork is only intended to use in nodejs server (> 10), but modern browser should also work.
@@ -14,7 +14,7 @@ This fork is only intended to use in nodejs server (> 10), but modern browser sh
 Use in Node.js:
 
 ```javascript
-var Hashids = require('hashid-bn');
+var Hashids = require('hashids-bn');
 var hashids = new Hashids();
 
 console.log(hashids.encode(1));
